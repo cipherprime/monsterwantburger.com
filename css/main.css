@@ -36,11 +36,11 @@ body
 	color: #565656;
 	font-family: "sf_cartoonist_handregular", sans-serif;
 	font-size: 2em;
-}	
+}
 
 
 #background
-{	
+{
 	position:fixed;
 	width: 100%;
 	height: 1986px;
@@ -69,7 +69,7 @@ h2
 
 .navbar-monster
 {
-	background: #FDB342;	
+	background: #FDB342;
 	border-bottom: 5px solid #FD9826;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -163,14 +163,14 @@ section:last-of-type
 		padding-top: 80px;
 		margin-bottom: 0px;
 	}
-	
+
 	#monster b
 	{
 		font-weight: normal;
 		position: relative;
 		top: -3px;
 	}
-	
+
 	#monster .lede
 	{
 		font-family: "Cookies";
@@ -178,12 +178,12 @@ section:last-of-type
 		margin: 0px auto;
 		font-size: 1.5em;
 	}
-	
+
 	#monster .lede p
 	{
 		margin: 40px 0px;
 	}
-	
+
 	#monster .lede .room
 	{
 		margin: 100px 0px;
@@ -200,7 +200,7 @@ section:last-of-type
 		position: relative;
 		overflow: hidden;
 	}
-	
+
 	#burger .aside
 	{
 		position: absolute;
@@ -208,7 +208,7 @@ section:last-of-type
 		top: 50%;
 		margin-left: 15vh;
 	}
-	
+
 
 
 #music
@@ -232,12 +232,12 @@ a.button, button
 	font-family: "Cookies";
 	color: #FFF;
 	text-shadow: 0px 3px #84BA00;
-	
+
 	background: #ACE125;
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0px 4px 0px #84BA00;
-	
+
 	transition: text-shadow .2s, background .2s, box-shadow .2s;
 	position: relative;
 }
@@ -268,7 +268,7 @@ a.button:active, button:active
 #howtoplay
 {
 
-	
+
 /*	border-bottom: 6px solid #d3b393; */
 }
 
@@ -283,7 +283,7 @@ a.button:active, button:active
 	position: relative;
 	background: #c7eaff;
 	border-radius: 100px;
-	box-shadow: 0px 6px #86aec7;	
+	box-shadow: 0px 6px #86aec7;
 	padding: 40px 0px;
 	color: #565656;
 	margin-bottom: 10em;
@@ -298,7 +298,7 @@ a.button:active, button:active
 {
 
 	height: 430px;
-	
+
 }
 
 
@@ -368,13 +368,13 @@ a.button:active, button:active
 	font-family: "Cookies";
 	font-weight: normal;
 	color:#8DD7FE;
-	text-shadow: 0px 3px #5182A0;	
+	text-shadow: 0px 3px #5182A0;
 }
 
 #about a:hover
 {
 	color:#91DBFD;
-	text-shadow: 0px 3px #82C3E3;	
+	text-shadow: 0px 3px #82C3E3;
 }
 
 #about a.monster
@@ -382,18 +382,18 @@ a.button:active, button:active
 	font-family: "Cookies";
 	font-weight: normal;
 	color:#FF4D77;
-	text-shadow: 0px 3px #AD425A;	
+	text-shadow: 0px 3px #AD425A;
 }
 
 #about a.profit
 {
 	color:#ADDF3B;
-	text-shadow: 0px 3px #85B803;	
+	text-shadow: 0px 3px #85B803;
 }
 
 #about p
 {
-	margin: 100px 0px;	
+	margin: 100px 0px;
 		text-align: left;
 }
 
@@ -421,7 +421,7 @@ a.button:active, button:active
 {
 	margin-top: 200px;
 	background: #FFF;
-	border-radius: 50px;	
+	border-radius: 50px;
 	color: #565656;
 	padding: 5%;
 	padding-top: 20%;
@@ -438,7 +438,7 @@ a.button:active, button:active
 	top: -10%;
 	left: 0;
 	right: 0;
-	
+
 
 }
 
@@ -447,18 +447,18 @@ a.button:active, button:active
 	font-family: "Cookies";
 	font-weight: normal;
 	color:#ADDF3B;
-	text-shadow: 0px 3px #85B803;	
+	text-shadow: 0px 3px #85B803;
 }
 
 #philabundance a:hover
 {
 	color:#bcde6c;
-	text-shadow: 0px 3px #a4c74c;	
+	text-shadow: 0px 3px #a4c74c;
 }
 
 #philabundance p
 {
-	margin: 100px 0px;	
+	margin: 100px 0px;
 	font-size: 2em;
 }
 
@@ -576,7 +576,7 @@ a.bold:hover
 
 #purchase .tip
 {
-	
+
 }
 
 #purchase .tip .button
@@ -696,13 +696,13 @@ a.bold:hover
 	font-family: "Cookies";
 	font-weight: normal;
 	color:#ADDF3B;
-	text-shadow: 0px 3px #85B803;	
+	text-shadow: 0px 3px #85B803;
 }
 
 .philabundance a:hover
 {
 	color:#bcde6c;
-	text-shadow: 0px 3px #a4c74c;	
+	text-shadow: 0px 3px #a4c74c;
 }
 
 #privacy .container
@@ -740,7 +740,7 @@ a.bold:hover
 	padding: 0px;
 }
 
-.btn-market 
+.btn-market
 {
 	border-radius: 5px;
 	display: inline-block;
@@ -787,7 +787,7 @@ a.bold:hover
 	background:  #FFF;
 	padding: 100px 0px;
 	border-bottom: 8px solid #ECF3F7;
-	
+
 }
 
 
@@ -822,6 +822,13 @@ a.button.btn-appstore
 	color: #FFB432;
 	text-shadow: 0px 3px #FF9900;
 	margin-top: 0px;
+}
+
+#purchase h2.orange
+{
+  color: #41C7D6;
+	text-shadow: none;
+
 }
 
 
@@ -860,64 +867,63 @@ a.button.btn-appstore:active
 
 .wobble
 {
-	position: relative;	
+	position: relative;
 	-webkit-animation: wobble 2s ease-in-out 0s infinite alternate;
 	animation: wobble 2s ease-in-out 0s infinite alternate;
 }
 
 
 
- 
-  /* Extra Small Devices, Phones */ 
+
+  /* Extra Small Devices, Phones */
 @media only screen and (max-width : 980px)  {
- 	
+
  	#monster .lede
 	{
 		width: 80%;
 	}
-	
+
 	#burger .burger
 	{
 		max-height: 50vh;
 	}
-	
+
  }
 
 
 
- /* Extra Small Devices, Phones */ 
+ /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)  {
  	body
  	{
 	 	font-size: 1.5em;
  	}
- 	
+
  	#monster .lede
 	{
 		width: 100%;
 	}
-	
 
-	
+
+
 	#howtoplay .row div
 	{
 		height: auto;
 	}
-	
+
 	#howtoplay h3
 	{
 		margin-top: 0px;
 	}
-	
+
 	#howtoplay .burst
 	{
 		background: none;
 	}
-	
-	
+
+
 	#philabundance
 	{
 		font-size: 80%;
 	}
  }
- 
