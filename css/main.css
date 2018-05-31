@@ -1,0 +1,923 @@
+@font-face {
+    font-family: 'Cookies';
+    src: url('../fonts/Cookies-webfont.eot');
+    src: url('../fonts/Cookies-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Cookies-webfont.woff2') format('woff2'),
+         url('../fonts/Cookies-webfont.woff') format('woff'),
+         url('../fonts/Cookies-webfont.ttf') format('truetype'),
+         url('../fonts/Cookies-webfont.svg#cookiesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.eot');
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'),
+         url('../fonts/SF_Cartoonist_Hand-webfont.svg#sf_cartoonist_handregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html
+{
+	background: #FFF0DF url("../img/bottom.png") center bottom no-repeat;
+}
+
+body
+{
+	background: none;
+	text-align: center;
+	color: #565656;
+	font-family: "sf_cartoonist_handregular", sans-serif;
+	font-size: 2em;
+}	
+
+
+#background
+{	
+	position:fixed;
+	width: 100%;
+	height: 1986px;
+	background: url("../img/buy_bkg.png") top center no-repeat;
+	z-index: -1;
+	border: none !important;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+	text-decoration: none;
+}
+
+img
+{
+	max-width: 100%;
+}
+
+h2
+{
+	font-family: "Cookies";
+	text-shadow: 0px 4px #777;
+	color: #FFF;
+	font-size: 4em;
+}
+
+.navbar-monster
+{
+	background: #FDB342;	
+	border-bottom: 5px solid #FD9826;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	font-family: "Cookies";
+	font-size: 1em;
+}
+
+.navbar-monster a
+{
+	color: #fff;
+	text-shadow: 0px 3px #FD9826;
+}
+.navbar-monster a:hover, .navbar-monster a:active
+{
+	background: #ffcc75 !important;
+	text-shadow: 0px 3px #ffb74b !important;
+	border-bottom: 5px solid #ffb74b !important;
+	position: relative;
+	top: 5px;
+	margin-top: -5px;
+}
+
+
+.navbar-monster .twitter a
+{
+	background: #91DAFD;
+	border-bottom: 5px solid #82C3E3;
+	position: relative;
+	top: 5px;
+	margin-top: -5px;
+}
+
+.navbar-monster .twitter a:hover
+{
+	background: #cdeefe !important;
+	border-bottom: 5px solid #b8d6e4 !important;
+}
+
+
+.navbar-monster .get a
+{
+	background: #FD4D77;
+	text-shadow: 0px 3px #B7465F;
+	border-bottom: 5px solid #B7465F;
+	position: relative;
+	top: 5px;
+	margin-top: -5px;
+}
+
+b
+{
+	font-family: "Cookies";
+	font-weight: normal;
+	color: #FD4D77;
+	text-shadow: 0px 3px #ba455f;
+}
+
+b.burger
+{
+	color: #FD4D77;
+	text-shadow: 0px 3px #ba455f;
+}
+
+b.monster
+{
+	color: #8FD9FC;
+	text-shadow: 0px 3px #52829d;
+}
+
+
+section
+{
+	margin: 10em 0px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+section:first-of-type
+{
+	margin-top:0px;
+}
+
+section:last-of-type
+{
+	margin-bottom:0px;
+}
+
+#monster
+	{
+		background: #fff0e0;
+		padding-top: 80px;
+		margin-bottom: 0px;
+	}
+	
+	#monster b
+	{
+		font-weight: normal;
+		position: relative;
+		top: -3px;
+	}
+	
+	#monster .lede
+	{
+		font-family: "Cookies";
+		width: 50%;
+		margin: 0px auto;
+		font-size: 1.5em;
+	}
+	
+	#monster .lede p
+	{
+		margin: 40px 0px;
+	}
+	
+	#monster .lede .room
+	{
+		margin: 100px 0px;
+	}
+
+
+#burger
+	{
+		margin-top: 0px;
+		background: #fddefa;
+		padding: 50px 0px;
+		padding-bottom: 20vh;
+		border-bottom: 6px solid #d199cb;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	#burger .aside
+	{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: 15vh;
+	}
+	
+
+
+#music
+{
+	background: #b8d6e4;
+	padding: 50px 0px;
+	border-bottom: 6px solid #6da1b9;
+
+}
+
+#music .aside
+{
+	margin-left:-194px;
+	position: relative;
+	top: -100px;
+}
+
+a.button, button
+{
+
+	font-family: "Cookies";
+	color: #FFF;
+	text-shadow: 0px 3px #84BA00;
+	
+	background: #ACE125;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 0px #84BA00;
+	
+	transition: text-shadow .2s, background .2s, box-shadow .2s;
+	position: relative;
+}
+
+a.button:hover, button:hover
+{
+	text-decoration: none;
+	background: #FD4D77;
+	text-shadow: 0px 3px #B7465F;
+	box-shadow: 0px 4px 0px #B7465F;
+}
+
+a.button:active, button:active
+{
+	text-shadow: none;
+	box-shadow: none;
+	top: 4px;
+}
+
+
+
+
+.divider
+{
+	height: 50vh;
+}
+
+#howtoplay
+{
+
+	
+/*	border-bottom: 6px solid #d3b393; */
+}
+
+#howtoplay p
+{
+	font-size: 1.5em;
+}
+
+#howtoplay .row
+{
+
+	position: relative;
+	background: #c7eaff;
+	border-radius: 100px;
+	box-shadow: 0px 6px #86aec7;	
+	padding: 40px 0px;
+	color: #565656;
+	margin-bottom: 10em;
+}
+
+#howtoplay .row:last-child
+{
+	margin-bottom: none;
+}
+
+#howtoplay .row div
+{
+
+	height: 430px;
+	
+}
+
+
+#howtoplay h3
+{
+	margin-top: 160px;
+	font-family: "Cookies";
+	font-weight: normal;
+	font-size: 2em;
+	color: #FE4D77;
+}
+
+#howtoplay .burst
+{
+	background: url("../img/badge.png") center center no-repeat;
+	background-size: contain;
+}
+
+#howtoplay .text
+{
+	width: 90%;
+	margin: 0px auto;
+}
+
+
+
+#howtoplay .img
+{
+	text-align: left;
+}
+
+#howtoplay .img img
+{
+	width: 570px;
+	max-width: 100%;
+}
+
+
+#about
+{
+	position: relative;
+}
+
+#about .baby
+{
+	display: block;
+	margin: 0px auto;
+	width: 400px;
+	position: relative;
+	top: -150px;
+	margin-bottom: -150px;
+}
+
+
+#about .container
+{
+	background: #FFF;
+	color: #565656;
+	font-size: 2em;
+	padding: 40px;
+	border-bottom: 6px solid #CAD7FF;
+	border-radius: 100px;
+}
+
+#about a
+{
+	font-family: "Cookies";
+	font-weight: normal;
+	color:#8DD7FE;
+	text-shadow: 0px 3px #5182A0;	
+}
+
+#about a:hover
+{
+	color:#91DBFD;
+	text-shadow: 0px 3px #82C3E3;	
+}
+
+#about a.monster
+{
+	font-family: "Cookies";
+	font-weight: normal;
+	color:#FF4D77;
+	text-shadow: 0px 3px #AD425A;	
+}
+
+#about a.profit
+{
+	color:#ADDF3B;
+	text-shadow: 0px 3px #85B803;	
+}
+
+#about p
+{
+	margin: 100px 0px;	
+		text-align: left;
+}
+
+
+
+#philabundance
+{
+	background: #AFDE49;
+	color: #FFF;
+
+	padding: 50px 0px;
+	border-bottom: 6px solid #84BA00;
+}
+
+
+
+#philabundance .lede
+{
+	font-family: "Cookies";
+	width: 80%;
+	margin: 0px auto;
+}
+
+#philabundance .cta
+{
+	margin-top: 200px;
+	background: #FFF;
+	border-radius: 50px;	
+	color: #565656;
+	padding: 5%;
+	padding-top: 20%;
+	position: relative;
+	font-size: 2em;
+}
+
+#philabundance .cta .title
+{
+	background: url("../img/slice1.png") top center no-repeat;
+	background-size: contain;
+	padding-bottom: 27.8%;
+	position: absolute;
+	top: -10%;
+	left: 0;
+	right: 0;
+	
+
+}
+
+#philabundance a
+{
+	font-family: "Cookies";
+	font-weight: normal;
+	color:#ADDF3B;
+	text-shadow: 0px 3px #85B803;	
+}
+
+#philabundance a:hover
+{
+	color:#bcde6c;
+	text-shadow: 0px 3px #a4c74c;	
+}
+
+#philabundance p
+{
+	margin: 100px 0px;	
+	font-size: 2em;
+}
+
+#philabundance p.special
+{
+	background: #FFF;
+	color: #565656;
+	border-radius: 80px;
+	box-shadow: 0px 5px 0px #C9D6FF;
+}
+
+
+
+
+
+
+
+#footer
+{
+
+	color: #565656;
+	padding: 0px 0px;
+	height: 500px;
+	font-size: 1.5em;
+}
+
+a.bold
+{
+
+	font-family: "Cookies";
+	color: #91DAFD;
+	text-shadow: 0px 3px #52819d;
+	font-weight: normal;
+}
+
+a.bold:hover
+{
+
+	color: #FD4D77;
+	text-shadow: 0px 3px #B7465F;
+	text-decoration: none;
+}
+
+
+
+
+
+.purchase input, .purchase button
+{
+
+	font-family: "Cookies";
+
+	font-weight: normal;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+
+	outline: 0 !important;
+	float: left;
+}
+
+
+
+.purchase input[type="text"]
+{
+	color: #565656;
+	border: 2px solid rgba(0,0,0,.1);
+	background: #FFF;
+	width: 60%;
+	margin-right: 5px;
+}
+
+
+.purchase input[type="text"]:focus
+{
+	background: #50819F;
+	color: #FFF;
+}
+
+.purchase
+{
+	margin-top: 0px;
+	overflow: auto;
+}
+
+.purchase label
+{
+	text-align: left;
+	font-size: .75em;
+	display: block;
+	font-style: italic;
+}
+
+
+#purchase-desktop
+{
+	color: #565656;
+	font-size: 1.5em;
+	padding: 200px 0px;
+	background: #ecf3f7;
+}
+
+
+#purchase p, #purchase form
+{
+	margin: 1em 0px;
+}
+
+#purchase .text p:first-child
+{
+	margin: 0px;
+	padding-top: 0px;
+	margin-top: -20px;
+}
+
+#purchase .tip
+{
+	
+}
+
+#purchase .tip .button
+{
+
+	background: #FFBBFC;
+	box-shadow: 0px 3px #EE36CD;
+	text-shadow: 0px 3px #EE36CD;
+}
+
+#purchase .tip .button:hover
+{
+	background: #FF4A75;
+	box-shadow: 0px 3px #BA445F;
+	text-shadow: 0px 3px #BA445F;
+}
+
+#purchase .tip .button:active
+{
+	box-shadow: none;
+	text-shadow: none;
+}
+
+
+
+#purchase b.download
+{
+	color: #94D6F6;
+	font-size:220%;
+	text-shadow: 0px 4px #5282A0;
+}
+
+#purchase b
+{
+	text-shadow: none;
+	color: #5282A0;
+	font-size: 110%;
+}
+
+
+#purchase b.pay
+{
+	text-shadow: none;
+	color: #82b112;
+}
+
+#purchase .tip b
+{
+	color: #e970c9;
+	display: block;
+	margin-bottom: .5em;
+}
+
+#purchase ul
+{
+	text-align: left;
+	font-size: 80%;
+	list-style: square outside url("../img/fat_star2.png");
+}
+
+#purchase h2
+{
+	font-size: 3em;
+	color: #94D6F6;
+	text-shadow: 0px 3px 0px #5282A0;
+
+}
+
+#purchase .aside
+{
+	position: relative;
+	left: -400px;
+	top: 80px;
+}
+
+#purchase .solid
+{
+	background: #8ED8FF;
+	padding: 100px 30px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 0px #50819F;
+}
+
+
+#purchase .gameplay-wrapper
+{
+	width: 100%;
+	padding-bottom: 58.1%;
+	position: relative;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+#purchase .gameplay
+{
+	background: url("../img/laptop_bkg.png") center center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px; left: 0px; right: 0px; bottom: 0px;
+}
+
+#purchase .gameplay .screen
+{
+	background: url("../img/gameplay_small.gif") center center no-repeat;
+	background-size: cover;
+	position: relative;
+
+	margin: 3.9% auto;
+	width: 71%;
+	height: 79.4%;
+}
+
+
+
+.philabundance a
+{
+	font-family: "Cookies";
+	font-weight: normal;
+	color:#ADDF3B;
+	text-shadow: 0px 3px #85B803;	
+}
+
+.philabundance a:hover
+{
+	color:#bcde6c;
+	text-shadow: 0px 3px #a4c74c;	
+}
+
+#privacy .container
+{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 10px #CAD7FF;
+	font-size: 2em;
+}
+
+#privacy p
+{
+	margin: 2em 0;
+}
+
+#privacy h2
+{
+	font-size: 2em;
+	color: #94D6F6;
+	text-shadow: 0px 3px 0px #5282A0;
+}
+
+#privacy ul
+{
+	list-style: none;
+}
+
+
+
+#monster a.button
+{
+	font-size: 1.333em;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 0px;
+}
+
+.btn-market 
+{
+	border-radius: 5px;
+	display: inline-block;
+}
+
+
+
+
+
+#trailer h2
+{
+	color: #B3FFC7;
+	text-shadow: 0px 3px #8BD6FF;
+}
+
+.video
+{
+	background: #FFF;
+	padding: 20px;
+	box-shadow: 0px 4px #e6e6e6;
+
+}
+
+.video iframe
+{
+	width: 100%;
+	border-top: 4px solid #e6e6e6;
+}
+
+.burger-names
+{
+	border-radius:10px;
+	box-shadow: 0px 6px #e4afde;
+}
+
+#purchase
+{
+	border-radius: none;
+	border-bottom: none;
+}
+
+#purchase-iphone
+{
+	background:  #FFF;
+	padding: 100px 0px;
+	border-bottom: 8px solid #ECF3F7;
+	
+}
+
+
+a.button.btn-appstore
+{
+	background: #41C7D6;
+	box-shadow: 0px 4px 0px #319ca7;
+	font-size: 1.333em;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 0px;
+	margin-bottom:50px;
+}
+
+
+#purchase-iphone a.button.btn-appstore
+{
+	background: #ffb432;
+	box-shadow: 0px 4px 0px #FF9900;
+	margin-bottom:0px;
+
+}
+
+#purchase h2, #purchase-iphone h2
+{
+	font-size: 220%;
+	margin-bottom:1em;
+}
+
+#purchase-iphone h2
+{
+	color: #FFB432;
+	text-shadow: 0px 3px #FF9900;
+	margin-top: 0px;
+}
+
+
+
+a.button.btn-appstore:hover
+{
+	text-decoration: none;
+	background: #FD4D77 !important;
+	text-shadow: 0px 3px #B7465F !important;
+	box-shadow: 0px 4px 0px #B7465F !important;
+}
+
+a.button.btn-appstore:active
+{
+	text-shadow: none !important;
+	box-shadow: none !important;
+	top: 4px !important;
+}
+
+
+
+
+
+
+@-webkit-keyframes wobble
+{
+	from{ -webkit-transform: translate3d( -40px, 0, 0 ) }
+	to{ -webkit-transform: translate3d( 40px, 0, 0 ) }
+}
+
+@keyframes wobble
+{
+	from{ transform: translate3d( -40px, 0, 0 ) }
+	to{ transform: translate3d( 40px, 0, 0 ) }
+}
+
+.wobble
+{
+	position: relative;	
+	-webkit-animation: wobble 2s ease-in-out 0s infinite alternate;
+	animation: wobble 2s ease-in-out 0s infinite alternate;
+}
+
+
+
+ 
+  /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 980px)  {
+ 	
+ 	#monster .lede
+	{
+		width: 80%;
+	}
+	
+	#burger .burger
+	{
+		max-height: 50vh;
+	}
+	
+ }
+
+
+
+ /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px)  {
+ 	body
+ 	{
+	 	font-size: 1.5em;
+ 	}
+ 	
+ 	#monster .lede
+	{
+		width: 100%;
+	}
+	
+
+	
+	#howtoplay .row div
+	{
+		height: auto;
+	}
+	
+	#howtoplay h3
+	{
+		margin-top: 0px;
+	}
+	
+	#howtoplay .burst
+	{
+		background: none;
+	}
+	
+	
+	#philabundance
+	{
+		font-size: 80%;
+	}
+ }
+ 
